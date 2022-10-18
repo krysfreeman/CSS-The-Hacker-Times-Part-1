@@ -25,6 +25,15 @@ h1 {
     font-size: 4em;
 }
 
+nav {
+    position: sticky;
+    top: 0px;
+}
+
+ul {
+    background-color: white;
+}
+
 nav, li {
     display: inline;
     text-align: center;
@@ -32,7 +41,6 @@ nav, li {
     color:#777;
     padding: .3em;
     font-size: 1em;
-
 }
 
 nav, li, a {
@@ -73,4 +81,14 @@ p {
 
 h4 {
     font-family: Roboto Slab;
+}
+
+.tertiary-articles > section {
+    display: inline-block;
+    width: 200px;
+    padding: 9px;
+}
+
+.tertiary-articles > section > img {
+    width: 100%;
 }
